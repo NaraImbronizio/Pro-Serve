@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proserve</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google fonts Nunito-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- CSS para personalizar a página-->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <nav class="navbar navbar-expand-lg py-4 navbar-custom">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html"><img class="img-fluid" src="IMG/logoProServe.fw.png" width="150px" alt="Proserve logo"></a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="nav-link" href="servicos.html">Serviços</a>
+                            </li>
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="px-4 py-2 btn btn-primary" href="contato.html">Contato</a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+            <div class="translate-widget">
+                <img src="https://flagcdn.com/w20/br.png" alt="Português" data-lang="pt">
+                <img src="https://flagcdn.com/w20/us.png" alt="English" data-lang="en">
+                <img src="https://flagcdn.com/w20/es.png" alt="Español" data-lang="es">
+                <img src="https://flagcdn.com/w20/fr.png" alt="Français" data-lang="fr">
+                <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" data-lang="de">
+                <img src="https://flagcdn.com/w20/it.png" alt="Italiano" data-lang="it">
+                <img src="https://flagcdn.com/w20/jp.png" alt="日本語" data-lang="ja">
+                <img src="https://flagcdn.com/w20/kr.png" alt="한국어" data-lang="ko">
+                <img src="https://flagcdn.com/w20/cn.png" alt="中文 (简体)" data-lang="zh-CN">
+                <img src="https://flagcdn.com/w20/tw.png" alt="中文 (繁體)" data-lang="zh-TW">
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/transformacao-digital.jpg" class="d-block w-100" alt="Transformação digital">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Automação de Processos</h1>
+                        <p>Otimiza recursos com soluções em RPA (Automação de Processos Robóticos).</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/inteligencia_de_dados.jpg" class="d-block w-100" alt="Inteligência de dados">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Inteligência de Dados</h1>
+                        <p>Transforma os seus dados em informações que auxiliem na tomada de decisões.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/BusinessExperience.webp" class="d-block w-100" alt="Business experience">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Business Experience</h1>
+                        <p>Transformar Customer Experience em negócios e valor percebido.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Outsourcing.webp" class="d-block w-100" alt="Outsourcing">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Outsourcing</h1>
+                        <p>Terceiriza serviços de desenvolvimento de software com qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row">
+            <!-- Cliente 1 -->
+            <div class="col-md-4">
+                <div class="card client-card">
+                    <img src="img/retailisation.8e3dbe25.svg" alt="Retailisation">
+                    <div class="card-body">
+                        <h5 class="card-title">Retailisation</h5>
+                        <p class="card-text">
+                            Empresa com sede em Amsterdã, utiliza a sua plataforma na inteligência de movimentação de estoque de seus clientes.
+                            O start do relacionamento ocorreu com a entrega do aplicativo.
+                            Atualmente, a Pro-Serve atua na continuidade do desenvolvimento do aplicativo, portal de gestão e nas API´s para as respectivas integrações.
+                            Além disso, atuamos em discussões estratégicas e aplicação de novas arquiteturas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cliente 2 -->
+            <div class="col-md-4">
+                <div class="card client-card">
+                    <img src="img/smar.0d496b75.svg" alt="Smar Apd">
+                    <div class="card-body">
+                        <h5 class="card-title">Smar Apd</h5>
+                        <p class="card-text">
+                            Empresa que desenvolve soluções completas para gerir prefeituras.
+                            O start do relacionamento ocorreu com a alocação de squad para entrega de projeto crítico e de grande complexidade.
+                            Atualmente, a Pro-Serve atua em todos os squads, de desenvolvimento dos sistemas legados, criando inovação e na construção de arquitetura e frameworks para os diversos sistemas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Cliente 3 -->
+            <div class="col-md-4">
+                <div class="card client-card">
+                    <img src="img/tpicap-logo.6f3332e6.svg" alt="Tp Icap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tp Icap</h5>
+                        <p class="card-text">
+                            Maior grupo de corretora de valores, com atuação mundial.
+                            O start do relacionamento ocorreu com o desenvolvimento do aplicativo MyCAP Power Broker.
+                            Atualmente, a Pro-Serve atua em todas as áreas de desenvolvimento e manutenção das ferramentas necessárias para a operação (interna e de seus clientes) para o mercado financeiro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+    </main>
+
+    <footer class="footer-section">
+        <p class="text-center">© 2024 Proserve. Todos os direitos reservados.</p>
+        <p class="text-center">Endereço: Rua Dos Bots, 123, Ribeirão Preto, São Paulo, Brasil | Telefone: (16) 1234-5678</p>
+    </footer>    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+        integrity="sha384-eMNjeOeQeT8pNyFnQpsl3bMmkaLr4b3kVMC3dBUjIW2wXsyjq5Fw20syV8QBSquT" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-cVKIPhGWiIRtQGGTxNM0pH1Jw5iCpNp0U9k6m/tO7r48N7K5sKf5MVd/Bl1WPGMl" 
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+        crossorigin="anonymous">
+    </script>
+
+    <script 
+    type="module"
+        src="http://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>    
+    <script
+        nomodule
+        src="http://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>    
+
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'pt',
+                includedLanguages: 'en,es,fr,de,it,ja,ko,zh-CN,zh-TW',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+
+        function changeLanguage(lang) {
+            var selectField = document.querySelector("#google_translate_element select");
+            selectField.value = lang;
+            selectField.dispatchEvent(new Event('change'));
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const flags = document.querySelectorAll('.translate-widget img');
+            flags.forEach(flag => {
+                flag.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    changeLanguage(lang);
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>

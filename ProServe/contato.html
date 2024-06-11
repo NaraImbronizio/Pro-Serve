@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proserve</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Google fonts Nunito-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  <!-- CSS para personalizar a página-->
+  <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <nav class="navbar navbar-expand-lg py-4 navbar-custom">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="index.html"><img class="img-fluid" src="IMG/logoProServe.fw.png" width="150px" alt="Proserve logo"></a>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="nav-link" href="clientes.html">Clientes</a>
+                            </li>
+                            <li class="nav-item ms-0 ms-md-3">
+                                <a class="nav-link" href="servicos.html">Serviços</a>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+
+            <div class="translate-widget">
+                <img src="https://flagcdn.com/w20/br.png" alt="Português" data-lang="pt">
+                <img src="https://flagcdn.com/w20/us.png" alt="English" data-lang="en">
+                <img src="https://flagcdn.com/w20/es.png" alt="Español" data-lang="es">
+                <img src="https://flagcdn.com/w20/fr.png" alt="Français" data-lang="fr">
+                <img src="https://flagcdn.com/w20/de.png" alt="Deutsch" data-lang="de">
+                <img src="https://flagcdn.com/w20/it.png" alt="Italiano" data-lang="it">
+                <img src="https://flagcdn.com/w20/jp.png" alt="日本語" data-lang="ja">
+                <img src="https://flagcdn.com/w20/kr.png" alt="한국어" data-lang="ko">
+                <img src="https://flagcdn.com/w20/cn.png" alt="中文 (简体)" data-lang="zh-CN">
+                <img src="https://flagcdn.com/w20/tw.png" alt="中文 (繁體)" data-lang="zh-TW">
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/transformacao-digital.jpg" class="d-block w-100" alt="Transformação digital">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Automação de Processos</h1>
+                        <p>Otimiza recursos com soluções em RPA (Automação de Processos Robóticos).</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/inteligencia_de_dados.jpg" class="d-block w-100" alt="Inteligência de dados">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Inteligência de Dados</h1>
+                        <p>Transforma os seus dados em informações que auxiliem na tomada de decisões.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/BusinessExperience.webp" class="d-block w-100" alt="Business experience">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Business Experience</h1>
+                        <p>Transformar Customer Experience em negócios e valor percebido.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Outsourcing.webp" class="d-block w-100" alt="Outsourcing">
+                    <div class="carousel-caption d-none d-md-block h-50">
+                        <h1 class="fonte-titulo">Outsourcing</h1>
+                        <p>Terceiriza serviços de desenvolvimento de software com qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Quer conhecer melhor o universo Pro-Serve?</h2>
+                    <p>Envie-nos uma mensagem, para que um dos nossos especialistas retorne o mais rápido possível.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome Completo</label>
+                                <input type="text" class="form-control" id="nome" required placeholder="Nome Completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required  placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Empresa</label>
+                                <input type="email" class="form-control" id="empresa" required  placeholder="Empresa">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Telefone</label>
+                                <input type="email" class="form-control" id="telefone" required  placeholder="Telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Como podemos te ajudar?</label>
+                                <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <div id="map"></div>
+
+    <footer class="footer-section">
+        <p class="text-center">© 2024 Proserve. Todos os direitos reservados.</p>
+        <p class="text-center">Endereço: Rua Dos Bots, 123, Ribeirão Preto, São Paulo, Brasil | Telefone: (16) 1234-5678</p>
+    </footer>    
+
+    <!-- Script para inicializar o mapa -->
+    <script>
+        function initMap() {
+            var officeLocation = {lat: -21.1391694228776, lng: -47.85100719099989};
+            var mapOptions = {
+                center: officeLocation,
+                zoom: 15
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var marker = new google.maps.Marker({
+                position: officeLocation,
+                map: map,
+                title: "Localização da ProServe"
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTcrNHHDjpXGyyRlmzzaagXdRZSxiLTo&callback=initMap" async defer></script>
+   
+
+     <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
+    integrity="sha384-eMNjeOeQeT8pNyFnQpsl3bMmkaLr4b3kVMC3dBUjIW2wXsyjq5Fw20syV8QBSquT" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiIRtQGGTxNM0pH1Jw5iCpNp0U9k6m/tO7r48N7K5sKf5MVd/Bl1WPGMl" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+    crossorigin="anonymous">
+    </script>
+
+    <script 
+    type="module"
+    src="http://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>    
+    <script
+    nomodule
+    src="http://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>    
+
+    
+    <!-- Script para inicializar o mapa -->
+    <script>
+        function initMap() {
+            var officeLocation = {lat: -23.5505199, lng: -46.6333094};
+            var mapOptions = {
+                center: officeLocation,
+                zoom: 15
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            var marker = new google.maps.Marker({
+                position: officeLocation,
+                map: map,
+                title: "Localização da ProServe"
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhTcrNHHDjpXGyyRlmzzaagXdRZSxiLTo&callback=initMap" async defer></script>
+</body>
+</html>
